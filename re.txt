@@ -1,0 +1,6 @@
+使用方法：
+1、file_contexts.bin 转换成 file_contexts，命令如下：
+./sefcontext -o file_contexts file_contexts.bin  sefcontext
+
+2、file_contexts 转换成 file_contexts.bin，命令如下：
+./sefcontext_compile -o file_contexts.bin file_contexts  
